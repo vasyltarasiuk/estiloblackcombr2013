@@ -1,0 +1,107 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+
+
+document.write(' \
+<style type="text/css" media="screen">\
+	 .dsq-widget ul.dsq-widget-list {\
+	 padding: 0;\
+	 margin: 0;\
+	 text-align: left;\
+	 }\
+	 img.dsq-widget-avatar {\
+	 width: 32px;\
+	 height: 32px;\
+	 border: 0px;\
+	 margin: 0px;\
+	 padding: 0px 3px 3px 0px;\
+	 float: left;\
+	 }\
+	 a.dsq-widget-user {\
+	 font-weight: bold;\
+	 }\
+	 a.dsq-widget-thread {\
+	 font-weight: bold;\
+	 }\
+	 p.dsq-widget-meta {\
+	 clear: both;\
+	 font-size: 80%;\
+	 padding: 0;\
+	 margin: 0;\
+	 }\
+	 li.dsq-widget-item {\
+	 margin: 15px 0;\
+	 list-style-type: none;\
+	 clear: both;\
+	 }\
+	 span.dsq-widget-clout {\
+	 padding: 0 2px;\
+	 background-color: #ff7300;\
+	 color: #fff;\
+	 }\
+	 table.dsq-widget-horiz td {\
+	 padding-right: 15px;\
+	 }\
+	 .dsq-widget-comment p {\
+	 display: inline;\
+	 }\
+	 </style>\
+	 <ul class="dsq-widget-list">\
+	 <li class="dsq-widget-item">\
+	 <a href="http://disqus.com/disqus_FDoZZjLQh7/"><img class="dsq-widget-avatar" src="http://a.disquscdn.com/uploads/users/8687/4403/avatar92.jpg?1387403504"></a>\
+	 <a class="dsq-widget-user" href="http://disqus.com/disqus_FDoZZjLQh7/">viviane santos</a>\
+	 <span class="dsq-widget-comment"><p>Adorei em Primo .. s2</p></span>\
+	 <p class="dsq-widget-meta"><a href="http://www.estiloblack.com.br/2013/07/blacklooks-07-fotos-dos-leitores-julho.html">BLACKLOOKS #07 Fotos dos leitores - Julho - estiloblack</a>&nbsp;&middot;&nbsp;<a href="http://www.estiloblack.com.br/2013/07/blacklooks-07-fotos-dos-leitores-julho.html#comment-1169313670">6 hours ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="http://disqus.com/guest/9e3d09eedbd39e47cdbf2f98bef5f994/"><img class="dsq-widget-avatar" src="http://a.disquscdn.com/1387401383/images/noavatar92.png"></a>\
+	 <a class="dsq-widget-user dsq-unregistered-user" href="http://disqus.com/guest/9e3d09eedbd39e47cdbf2f98bef5f994/">Souza</a>\
+	 <span class="dsq-widget-comment"><p>Voces podiam deixar em cada post, o nome de alguns lugares onde achamos roupas, cremes, acessorios, etc. Sou fã desse site. rs</p></span>\
+	 <p class="dsq-widget-meta"><a href="http://www.estiloblack.com.br/2012/11/moda-black-com-looks-de-rappers.html">Moda black com Looks de Rappers americanos - estiloblack</a>&nbsp;&middot;&nbsp;<a href="http://www.estiloblack.com.br/2012/11/moda-black-com-looks-de-rappers.html#comment-1166870527">2 days ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="http://disqus.com/orfheu/"><img class="dsq-widget-avatar" src="http://a.disquscdn.com/uploads/users/8591/4569/avatar92.jpg?1386977022"></a>\
+	 <a class="dsq-widget-user" href="http://disqus.com/orfheu/">ORFHEU</a>\
+	 <span class="dsq-widget-comment"><p>CARA,ALGUMA CHANCE DE VCS LANÇAREM UMA REVISTA ESPECIALIZADA EM ESTILO BLACK???<br>POR FAVOR PENSEM NA IDEIA!!!!!<br>ABÇ.</p></span>\
+	 <p class="dsq-widget-meta"><a href="http://www.estiloblack.com.br/2012/12/blazer-branco-e-colares-masculino.html">Blazer branco e colares masculino - estiloblack</a>&nbsp;&middot;&nbsp;<a href="http://www.estiloblack.com.br/2012/12/blazer-branco-e-colares-masculino.html#comment-1162201138">5 days ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="http://disqus.com/josephsouza/"><img class="dsq-widget-avatar" src="http://a.disquscdn.com/uploads/users/8554/7140/avatar92.jpg?1386799641"></a>\
+	 <a class="dsq-widget-user" href="http://disqus.com/josephsouza/">Joseph Souza</a>\
+	 <span class="dsq-widget-comment"><p>Qual é o shampoo recomendado para um cabelo black ?</p></span>\
+	 <p class="dsq-widget-meta"><a href="http://www.estiloblack.com.br/2013/03/tipos-de-cabelos-para-homens-negros.html">Tipos de cabelos para homens negros - estiloblack</a>&nbsp;&middot;&nbsp;<a href="http://www.estiloblack.com.br/2013/03/tipos-de-cabelos-para-homens-negros.html#comment-1159286873">1 week ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="http://disqus.com/gleidson_teixeira/"><img class="dsq-widget-avatar" src="http://a.disquscdn.com/uploads/users/8542/6912/avatar92.jpg?1386741183"></a>\
+	 <a class="dsq-widget-user" href="http://disqus.com/gleidson_teixeira/">Gleidson Teixeira</a>\
+	 <span class="dsq-widget-comment"><p>sempre gosto das dicas desse blog... parabéns pelo trabalho aqui Ale Santos</p></span>\
+	 <p class="dsq-widget-meta"><a href="http://www.estiloblack.com.br/2013/03/cardigan-e-lenco-em-um-look-moderno-e.html">Cardigan e lenço em um look moderno e elegante - estiloblack</a>&nbsp;&middot;&nbsp;<a href="http://www.estiloblack.com.br/2013/03/cardigan-e-lenco-em-um-look-moderno-e.html#comment-1158334305">1 week ago</a></p>\
+	 </li>\
+	 </ul>\
+');
+
+
+}
+
+/*
+playback timings (ms):
+  captures_list: 0.687
+  exclusion.robots: 0.034
+  exclusion.robots.policy: 0.02
+  esindex: 0.014
+  cdx.remote: 7.906
+  LoadShardBlock: 192.653 (3)
+  PetaboxLoader3.datanode: 118.877 (4)
+  load_resource: 298.254
+  PetaboxLoader3.resolve: 181.865
+*/
